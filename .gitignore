@@ -1,0 +1,6 @@
+# Ignore IDEA files
+.idea
+esticade.php.iml
+
+# Ignore vendor
+vendor

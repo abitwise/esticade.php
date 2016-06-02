@@ -1,0 +1,25 @@
+{
+    "name": "esticade/esticade.php",
+    "license": "MIT",
+    "version": "0.0.1",
+    "description": "Esticade event library",
+    "type": "library",
+    "homepage": "https://github.com/abitwise/esticade.php",
+    "authors": [
+        {
+            "name": "Olger Oeselg",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "bunny/bunny": "@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.3.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Esticade": "src/"
+        }
+    }
+}
